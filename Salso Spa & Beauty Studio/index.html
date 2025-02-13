@@ -1,0 +1,464 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+  <head>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="description" content="A growing collection of ready to use components for the CSS framework Bootstrap 5">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="96x96" href=".t/img/favicon.png">
+  <meta name="author" content="Holger Koenemann">
+  <meta name="generator" content="Eleventy v2.0.0">
+  <meta name="HandheldFriendly" content="true">
+  <title>Saslo Spa & Beauty Studio</title>
+  <link rel="stylesheet" href="css/theme.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400&display=swap" rel="stylesheet">
+
+   <style>
+
+/* inter-300 - latin */
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local(''),
+       url('./fonts/inter-v12-latin-300.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/inter-v12-latin-300.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local(''),
+       url('./fonts/inter-v12-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/inter-v12-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local(''),
+       url('./fonts/inter-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('./fonts/inter-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+  /* Optional: Basic styling for smooth transition */
+  .nav-link {
+    transition: color 0.3s, text-shadow 0.3s;
+  }
+
+</style>
+
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navScroll">
+
+    <nav id="navScroll" class="navbar navbar-expand-lg navbar-dark fixed-top" tabindex="0">
+      <script>
+        document.addEventListener('scroll', function() {
+          var nav = document.getElementById('navScroll');
+          var navLink = document.getElementById('navLink');
+          if (window.scrollY > 50) { // Change 50 to the scroll position you want
+            navLink.style.color = 'black';
+            navLink.style.textShadow = 'none';
+          } else {
+            navLink.style.color = 'white';
+            navLink.style.textShadow = '0 0 5px white';
+          }
+        });
+      </script>
+  <div class="container">
+    <a class="navbar-brand pe-4 fs-4" href="/">
+      <img src="./img/logo1.png" alt="Description of Icon" width="100rem" height="100rem" style="fill: currentColor;"/>
+      <span class="ms-1 fw-bolder" style="padding-right: 25rem; font-family: 'Dancing Script', cursive; font-style: italic; font-size: 35px;">Saslo'Spa & Beauty Studio</span>
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutus" style="color: white; text-shadow: 0 0 5px white; background-color: #0f1f30;">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#services" aria-label="Brings you to the frontpage" style="color: white; text-shadow: 0 0 5px white;">
+            Services
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#aboutus" style="color: white; text-shadow: 0 0 5px white;">
+            About us
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#gallery" style="color: white; text-shadow: 0 0 5px white;">
+            Gallery
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#testimonials" style="color: white; text-shadow: 0 0 5px white;">
+            Testimonials
+          </a>
+        </li>
+      </ul>
+      <ul>
+        <a href="#" class="" 
+   style="
+     color: white; 
+     text-shadow: 0 0 5px rgb(8, 7, 7); 
+     background-color: #0f1f30;
+     padding: 15px 15px;
+     border-radius: 1px;
+     text-decoration: none;
+     display: inline-block;
+     font-weight: bold;
+     transition: background-color 0.3s;
+   "
+   onmouseover="this.style.backgroundColor='#0056b3';" 
+   onmouseout="this.style.backgroundColor='#007bff';">
+   Contact Us
+</a>
+      </ul>
+    </div>
+    
+</nav>
+
+    <main>
+      <div class="w-100 overflow-hidden bg-gray-100" id="top">
+  
+<div class="container position-relative">
+  <div class="col-12 col-lg-7 mt-0 h-100 position-absolute top-0 end-0 bg-cover" data-aos="fade-left" style="background-image: url(img/bg.jpg);">
+    
+  </div>
+    <div class="row">
+
+      <div class="col-lg-7 py-vh-6 position-relative" data-aos="fade-right">
+        <div class="col-lg-7 py-vh-6 position-relative" data-aos="fade-right">
+          <h1 class="display-1 fw-bold mt-5">Rejuvinate Your Body, Mind & Soul.</h1>
+          <p class="lead">
+            At Saslo'Spa & Beauty Studio, we blend relaxation with expert care. 
+            Our experienced team, with over a decade in the industry, is dedicated to delivering exceptional, precise treatments for every guest.
+          </p>
+          <a href="#" class="btn btn-dark btn-xl shadow me-3 rounded-0 my-5">Bookings</a>
+        </div>
+</div>
+</div>
+
+</div>
+
+<div class="py-vh-5 w-100 overflow-hidden" id="services">
+  <div class="container">
+      <div class="row d-flex justify-content-end">
+        <h1 style="padding: 10px; font-size: 3rem;">
+          About Us
+        </h1>
+        <div style="display: flex; align-items: center;">
+          
+          <div class="col-lg-8" data-aos="fade-down" style="margin-right: 20px;">
+            <p>
+              We pride ourselves on cultivating an environment where relaxation meets expertise. 
+              Our team is composed of highly experienced and talented individuals who are passionate about delivering an exceptional experience to every guest who walks through our doors. 
+              With a deep commitment to quality and service, our staff members bring over a decade of experience in the spa and salon industry, ensuring that every treatment is performed with precision and care.
+            </p>
+          </div>
+          
+        </div>
+</div>
+<div class="row d-flex align-items-center">
+  <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+    <img src="./img/01.jpeg" alt="Startup Office" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px; padding: 10px;">
+    <span class="h5 fw-lighter"></span>
+    <h3 class="py-5 border-top border-dark">Manicure & Pedicure.</h3>
+    <p>
+      Experience luxury with our Massage, Manicure & Pedicure services—soothing massages, expert nail care, and complete relaxation from head to toe.
+    </p>
+    <a href="#" class="link-fancy">Learn more</a>
+  </div>
+
+  <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+    <img src="./img/21.jpeg" alt="Startup Office" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px; padding: 10px;">
+    <span class="h5 fw-lighter"></span>
+    <h3 class="py-5 border-top border-dark">Full-Body Massage.</h3>
+    <p>
+      Enjoy ultimate relaxation with our Full-Body Massage—soothing tension, improving circulation, and leaving you rejuvenated and at peace. Ideal for holistic well-being.
+    </p>
+    <a href="#" class="link-fancy">Learn more</a>
+  </div>
+
+  <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200" style="text-align: center;">
+    <img src="./img/22.jpg" alt="Startup Office" style="max-width: 100%; height: auto; border-radius: 8px; margin-bottom: 15px; padding: 10px;">
+    <span class="h5 fw-lighter"></span>
+    <h3 class="py-5 border-top border-dark">Beauty Studio.</h3>
+    <p>
+      Discover serenity at our Hair Studio. Enjoy personalized hair care and styling that enhance your look and boost your confidence, leaving you refreshed and radiant.
+    </p>
+    <a href="#" class="link-fancy">Learn more</a>
+  </div>
+  <a href="#" class="btn btn-dark btn-xl shadow me-3 rounded-0 my-5" style="max-width: 40%; align-items: center; justify-content: center;">View More Services</a>
+</div>
+  </div>
+</div>
+
+<div class="py-vh-4 bg-gray-100 w-100 overflow-hidden" id="aboutus">
+  <div class="container">
+      
+<div class="row d-flex justify-content-between align-items-center">
+  <div class="col-lg-6">
+  <div class="row gx-5 d-flex">
+    <div class="col-md-11">
+      <div class="shadow ratio ratio-16x9 rounded bg-cover bp-center align-self-end" data-aos="fade-right" style="background-image: url(img/2.jpeg);--bs-aspect-ratio: 50%;">
+      </div>
+    </div>
+    <div class="col-md-5 offset-md-1">
+      <div class="shadow ratio ratio-1x1 rounded bg-cover mt-5 bp-center float-end" data-aos="fade-up" style="background-image: url(img/6.jpg);">
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="col-12 shadow ratio rounded bg-cover mt-5 bp-center" data-aos="fade-left" style="background-image: url(img/25.jpg);--bs-aspect-ratio: 150%;">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-lg-4">
+  <h3 class="py-5 border-top border-dark" data-aos="fade-left">
+    Discover serenity at our Beauty Studio. Enjoy a Full-Body Massage for ultimate relaxation, along with luxurious Manicure & Pedicure services. 
+    Enhance your look and confidence while leaving refreshed, radiant, and completely at ease.
+  </h3>
+  <p data-aos="fade-left" data-aos-delay="200">Ultimate Beauty Treatments with Full-Body Massage, Manicure & Pedicure, and Expert Hair Care at Our Beauty Studio.
+  </p>
+  <p>
+    <a href="#" class="link-fancy link-dark" data-aos="fade-left" data-aos-delay="400">Learn more
+    </a>
+  </p>
+</div>
+</div>
+
+  </div>
+</div>
+
+<div class="py-vh-5 w-100 overflow-hidden" id="numbers">
+  <div class="container">
+      <div class="row d-flex justify-content-between align-items-center">
+  <div class="col-lg-5">
+    <h3 class="py-5 border-top border-dark" data-aos="fade-right">Our Gallery</h3>
+</div>
+<div class="col-lg-6">
+  <div class="row">
+    <div class="col-12">
+    <h2 class="display-6 mb-5" data-aos="fade-down">
+      Explore our gallery to see a curated selection of our exceptional work. 
+      From stunning transformations to our relaxing spa environment, discover the quality and beauty that define our services.
+    </h2>
+    </div>
+  </div>
+</div>
+</div>
+
+  </div>
+</div>
+
+<div class="position-relative overflow-hidden w-100 bg-light" id="gallery">
+  <div class="container-fluid">
+  <div class="#">
+    <div class="col-12">
+      <div class="row vw-5 px-0 py-vh-5 align-items-center">
+        <div class="col-md-2" data-aos="fade-up">
+            <img src="img/13.jpg" class="rounded shadow img-fluid" alt="nice gallery image" width="500" height="341">
+        </div>
+
+        <div class="col-md-2" data-aos="fade-up" data-aos-delay="50">
+            <img src="img/8.jpg" class="img-fluid rounded shadow" alt="nice gallery image" width="1000" height="776">
+        </div>
+
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+            <img src="img/19.jpg" class="img-fluid rounded shadow" alt="nice gallery image" width="700" height="1054">
+        </div>
+
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+            <img src="img/12.jpeg" class="img-fluid rounded shadow" alt="nice gallery image" width="600" height="562">
+        </div>
+
+        <div class="col-md-2" data-aos="fade-up" data-aos-delay="400">
+            <img src="img/24.jpeg" class="rounded shadow img-fluid" alt="nice gallery image" width="400" height="341">
+        </div>
+      </div>
+    </div>
+   </div>
+ </div>
+</div>
+
+<div class="container py-vh-4 w-100 overflow-hidden">
+  <div class="row d-flex justify-content-center align-items-center">
+    <div class="col-lg-5">
+  <h3 class="py-5 border-top border-dark" data-aos="fade-right">What our clients say</h3>
+</div>
+<div class="col-md-7" data-aos="fade-left">
+  <blockquote>
+    <div class="fs-4 my-3 fw-light pt-4 border-bottom pb-3">“ fantastic experience from start to finish! The staff at the Beauty Studio are incredibly skilled and attentive. 
+      My massage was deeply relaxing, and the manicure & pedicure left my hands and feet looking perfect. The overall atmosphere is welcoming and rejuvenating. Highly recommend!”</div>
+    <img src="img/webp/person11.webp" width="64" height="64" class="img-fluid rounded-circle me-3" alt="" data-aos="fade">
+    <span><span class="fw-bold">John Doe,</span>
+      Client.</span>
+  </blockquote>
+</div>
+
+  </div>
+</div>
+
+<div class="py-vh-6 bg-gray-900 text-light w-100 overflow-hidden" id="workwithus">
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="row d-flex justify-content-center text-center">
+  <div class="col-lg-8 text-center" data-aos="fade">
+        <p class="text-secondary lead">Let's embark on a wellness journey together!</p>
+    <h2 class="display-6 mb-5">Contact Us for More Information!</h2>
+  </div>
+  <div class="col-12">
+    <a href="#" class="btn btn-warning btn-xl shadow me-3 mt-4" data-aos="fade-down">Contact</a>
+  </div>
+</div>
+
+    </div>
+  </div>
+</div>
+
+<div class="container py-vh-3 border-top" data-aos="fade" data-aos-delay="200">
+  <div class="row d-flex justify-content-center">
+    <div class="col-12 col-lg-8 text-center">
+      <h3 class="fs-2 fw-light">Stay in touch with our<span class="fw-bold">
+          monthly and free</span>
+        newsletter!
+    </h3></div>
+    <div class="col-12 col-lg-8 text-center">
+      <div class="row">
+        <div class="grouped-inputs border bg-light p-2">
+  <div class="row">
+    <div class="col">
+      <form class="form-floating">
+        <input type="email" class="form-control p-3" id="floatingInput" placeholder="name@example.com">
+        <label for="floatingInput">Email address</label>
+      </form>
+    </div>
+    <div class="col-auto">
+      <a href="#" class="btn btn-dark py-3 px-5">Subscribe</a>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+    </main>
+
+    <footer>
+  <div class="container small border-top">
+    <div class="row py-5 d-flex justify-content-between">
+
+<div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+  <a class="navbar-brand pe-4 fs-4" href="/">
+    <img src="./img/logo1.png" alt="Description of Icon" width="100rem" height="100rem" style="fill: currentColor;"/>
+    
+  </a>
+  <address class="text-secondary mt-3">
+    Pimville Zone 5, Soweto<br>
+    Gauteng,South Africa 1809<br>
+    <abbr title="Phone"></abbr>
+    067 720 0502
+  </address>
+</div>
+<div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+  <h3 class="h6 mb-3">Company</h3>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link link-secondary ps-0" aria-current="page" href="#">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link link-secondary ps-0" href="#">Services</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link link-secondary ps-0" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link link-secondary ps-0" href="#">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link link-secondary ps-0" href="#">Testimonials</a>
+    </li>
+  </ul>
+</div>
+<div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+  <h3 class="h6 mb-3">Services</h3>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link link-secondary ps-0" aria-current="page" href="#">Colon Cleansing</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link link-secondary ps-0" href="#">Massage</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link link-secondary ps-0" href="#">Manicure & Pedicure</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link link-secondary ps-0" href="#">Body Exfoliating</a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link link-secondary ps-0" href="#">Jaccuzi & Steam Room</a>
+    </li>
+  </ul>
+</div>
+<div class="col-12 col-lg-6 col-xl-3 p-5">
+  <h3 class="h6 mb-3">Contact Us</h3>
+  <ul class="nav flex-column">
+    <li class="nav-item">
+      <a class="nav-link link-secondary ps-0" aria-current="page" href="404.html">Saslo'Spa & Beauty Studio</a>
+      <a class="nav-link link-secondary ps-0" aria-current="page" href="register.html" href="mailto:info@yourcompany.com">info@salsospa.com</a>
+      <a class="nav-link link-secondary ps-0" aria-current="page" href="content.html">Operation Times: Mon-Fri, 9AM - 5PM</a>
+    </li>
+  </ul>
+</div>
+</div>
+</div>
+
+<div class="container text-center py-3 small">Made by <a href="#" class="link-fancy" target="_blank">TheOptimisticDev</a>
+</div>
+</footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/aos.js"></script>
+ <script>
+ AOS.init({
+   duration: 800, // values from 0 to 3000, with step 50ms
+ });
+ </script>
+
+ <script>
+  let scrollpos = window.scrollY
+  const header = document.querySelector(".navbar")
+  const header_height = header.offsetHeight
+
+  const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm")
+  const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm")
+
+  window.addEventListener('scroll', function() {
+    scrollpos = window.scrollY;
+
+    if (scrollpos >= header_height) { add_class_on_scroll() }
+    else { remove_class_on_scroll() }
+
+    console.log(scrollpos)
+  })
+</script>
+
+  </body>
+</html>
