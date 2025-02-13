@@ -47,11 +47,12 @@ I plan to explore and implement:
 
 Feel free to fork this repository and submit pull requests with improvements or new projects!
 
-Contact
+## Contact
+
 If you have suggestions or just want to connect, reach out via:
 
-GitHub: TheOptimisticDev
-LinkedIn: www.linkedin.com/in/mfumu-wealth-mabunda-353374159
-Email: mabunda.wealth@gmail.com
+- GitHub: TheOptimisticDev
+- LinkedIn: www.linkedin.com/in/mfumu-wealth-mabunda-353374159
+- Email: mabunda.wealth@gmail.com
 
 Happy coding! 🚀
